@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 
 
 @SpringBootApplication
-@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
 public class SpringBootMongodbExampleApplication {
 
 	public static void main(String[] args) {
